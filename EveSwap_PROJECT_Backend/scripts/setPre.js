@@ -5,7 +5,7 @@ const {factoryABI} = require("../ABI/factoryABI.js");
 const {marketABI} = require("../ABI/marketABI.js");
 
 // const provider = new ethers.providers.JsonRpcProvider("https://sepolia.infura.io/v3/2f7950c8e3c74b82a80a11be343ed9fe");
-// const signerPrivateKey = "91e11fefe5ec26cb2aa0fd9394945d9fe177d1df076827ffa88567c3b7df0d6d";
+// const signerPrivateKey = "";
 // const signer = new ethers.Wallet(signerPrivateKey, provider);
 
 const provider = new ethers.getDefaultProvider();
